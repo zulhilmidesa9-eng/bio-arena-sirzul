@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+
+<title>BIO-ARENA Game Arena</title>
+
+<link rel="stylesheet" href="style.css">
+
+</head>
+
+
+<body>
+
+
+<div class="page">
+
+
+<h1>🎮 BIO-ARENA Game Arena</h1>
+
+
+<p class="content">
+
+Complete biology missions and collect biological energy points.
+
+</p>
+
+
+
+<div class="box">
+
+
+<h2 id="question">
+Mission 1: Which organelle controls cell activities?
+</h2>
+
+
+
+<button onclick="answer(true)">
+Nucleus
+</button>
+
+
+
+<button onclick="answer(false)">
+Mitochondria
+</button>
+
+
+<h2 id="result"></h2>
+
+
+<h2>
+⭐ Score:
+<span id="score">
+0
+</span>
+
+</h2>
+
+
+</div>
+
+
+
+</div>
+
+
+
+<script>
+
+
+let score=0;
+
+
+function answer(correct){
+
+
+if(correct){
+
+score+=100;
+
+document.getElementById("result").innerHTML=
+"✅ Correct! Biology energy gained.";
+
+}
+
+else{
+
+
+document.getElementById("result").innerHTML=
+"❌ Incorrect. Try again.";
+
+}
+
+
+document.getElementById("score").innerHTML=score;
+
+
+}
+
+
+
+</script>
+
+
+
+</body>
+
+</html>
