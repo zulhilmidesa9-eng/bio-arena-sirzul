@@ -42,9 +42,58 @@ let answer="";
 if(question.includes("mitosis")){
 
 
-answer=
+answer = `
 
-"🧬 Mitosis is a type of cell division that produces two genetically identical daughter cells. It is important for growth, repair and replacement of damaged cells. Stages: Prophase, Metaphase, Anaphase and Telophase.";
+🧬 <b>MITOSIS</b>
+
+<br><br>
+
+<b>Definition:</b><br>
+
+Mitosis is a type of cell division that produces two genetically identical daughter cells from one parent cell.
+
+<br><br>
+
+<b>Process:</b>
+
+<br>
+
+1. <b>Prophase</b><br>
+- Chromosomes become visible.<br>
+- Nuclear membrane breaks down.<br>
+
+<br>
+
+2. <b>Metaphase</b><br>
+- Chromosomes arrange at the equator of the cell.<br>
+
+<br>
+
+3. <b>Anaphase</b><br>
+- Sister chromatids separate and move to opposite poles.<br>
+
+<br>
+
+4. <b>Telophase</b><br>
+- Two new nuclei are formed.<br>
+- Cell division is completed.
+
+<br><br>
+
+<b>Importance:</b><br>
+
+✓ Growth<br>
+✓ Repair damaged tissues<br>
+✓ Replacement of old cells
+
+<br><br>
+
+<b>SPM Focus:</b><br>
+
+Remember:
+Mitosis produces <b>identical diploid cells</b>.
+
+`;
 
 }
 
