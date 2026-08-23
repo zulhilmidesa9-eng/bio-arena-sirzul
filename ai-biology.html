@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+
+<title>BIO-ARENA KSSM Biology AI Mentor</title>
+
+<link rel="stylesheet" href="style.css">
+
+</head>
+
+
+<body>
+
+
+<div class="page">
+
+
+<h1>
+🧬 BIO-ARENA AI BIOLOGY MENTOR
+</h1>
+
+
+<p class="content">
+
+KSSM Biology Form 4 & Form 5 Learning Assistant
+
+</p>
+
+
+
+<div class="ai-box">
+
+
+<h2>
+Choose Your Level
+</h2>
+
+
+<button onclick="selectLevel('Form 4')">
+Form 4
+</button>
+
+
+<button onclick="selectLevel('Form 5')">
+Form 5
+</button>
+
+
+
+<h2 id="level">
+Level not selected
+</h2>
+
+
+
+
+<select id="topic">
+
+<option>
+Select Topic
+</option>
+
+<option>
+Cell Division
+</option>
+
+<option>
+Biological Molecules
+</option>
+
+<option>
+Enzymes
+</option>
+
+<option>
+Transport System
+</option>
+
+<option>
+Respiration
+</option>
+
+<option>
+Homeostasis
+</option>
+
+<option>
+Reproduction
+</option>
+
+<option>
+Inheritance
+</option>
+
+<option>
+Ecosystem
+</option>
+
+
+</select>
+
+
+
+<br><br>
+
+
+
+<input 
+id="question"
+placeholder="Example: Explain mitosis"
+>
+
+
+
+<button onclick="askBiologyAI()">
+
+Ask AI
+
+</button>
+
+
+
+
+<div id="chat">
+
+
+<div class="bot">
+
+🤖 AI Mentor:
+
+Welcome Biology Explorer.
+Select Form and ask your question.
+
+</div>
+
+
+</div>
+
+
+
+</div>
+
+
+</div>
+
+
+
+<script src="biology-ai.js"></script>
+
+
+</body>
+
+
+</html>
